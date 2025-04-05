@@ -12,7 +12,7 @@ if(!days){
 }
 else{
     if((days > 0 )&&(days < 31)){
-        let td = calendario.getElementsByTagName('td');
+        let td = calendario.getElementsByTagName('td')[parseInt(days)+1];
         td.style.backgroundColor = color;
     }
     else{
@@ -42,6 +42,8 @@ for(let i = 0; i < elementos.length; i++){
     }
     else if(corEstilo == "rgb(106, 90, 205)" || corEstilo == "slateBlue"){
         contadorAzul++;
+}
+
 }
 
 }
