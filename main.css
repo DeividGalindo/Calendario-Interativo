@@ -1,26 +1,72 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* main.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
 }
 
-table{
-    margin-top: 20px;
+h1 {
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
-.calendario, th, td{
-    border: 1px solid black;
+table.calendario {
+    margin: 0 auto;
     border-collapse: collapse;
-    width: 400px;
-    height: 30px;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    font-size: 14px;
+}
+
+.calendario th, .calendario td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 14.2%;
+    height: 40px;
     text-align: center;
 }
 
-hr{
-    margin-top: 30px;
+.calendario th {
+    background-color: #6c63ff;
+    color: white;
 }
 
-th{
-    background-color: blue;
+.calendario td:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+}
+
+hr {
+    margin: 30px 0;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+select, input[type="number"], input[type="button"] {
+    padding: 6px;
+    margin: 8px 4px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    background-color: #6c63ff;
     color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: #574fcf;
 }
