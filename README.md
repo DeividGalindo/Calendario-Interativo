@@ -6,9 +6,9 @@ Este é um projeto de **Calendário Interativo** desenvolvido com **HTML**, **CS
 
 ## 🛠 Linguagens de programação
 
- **HTML5** – estrutura da página
- **CSS** – estilização e layout visual
- **JavaScript** – lógica para selecionar e colorir os dias
+ **HTML5** – estrutura da página  
+ **CSS** – estilização e layout visual  
+ **JavaScript** – lógica para selecionar e colorir os dias  
 
  ## 🎯 Funcionalidades
 
