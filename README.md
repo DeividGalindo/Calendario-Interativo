@@ -24,4 +24,4 @@ Foi utilizando para atribuir as funções no calendario, como alterações das c
 
 ## Autor
 
-<img src="perfil.jpeg" width=130><br><sub>Deivid Galindo</sub>
+<img src="perfil.jpg" width=130><br><sub>Deivid Galindo</sub>
